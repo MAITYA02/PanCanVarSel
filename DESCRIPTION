@@ -12,6 +12,7 @@ Description: Provides function for performing
     Horseshoe prior in the AFT model with 
     log normal assumption in order to achieve 
     high dimensional pan-cancer variable selection.
+    Maity, A. K., Bhattacharyya, A., Mallick, B. K., and Baladandayuthapani, V. (2019) Data Integration and Variable Selection for Pan-Cancer Survival Prediction using Protein Expressions, Biometrics.
 Depends: R (>= 2.0.0)
 Imports: mvtnorm, Matrix, smoothmest, msm
 License: GPL-3
