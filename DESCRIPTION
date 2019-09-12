@@ -1,18 +1,16 @@
 Package: PanCanVarSel
 Title: Pan-Cancer Variable Selection
-Version: 0.0.1
+Version: 0.0.2
 Authors@R: 
     c(person("Arnab", "Maity", email = "arnab.maity@pfizer.com", role = c("aut", "cre")),
       person("Antik", "Chakraborty", email = "antik.chakraborty@duke.edu", role = "aut"),
       person("Anirban", "Bhattacharya", email = "anirbanb@stat.tamu.edu", role = "aut"),
       person("Bani", "K. Mallick", email = "bmallick@stat.tamu.edu", role = "aut"),
       person("Veerabhadran", "Baladandayuthapani", email = "veerab@umich.edu", role = "aut"))
-Description: Provides function for performing 
-    Bayesian survival regression using 
-    Horseshoe prior in the AFT model with 
-    log normal assumption in order to achieve 
-    high dimensional pan-cancer variable selection.
-    Maity, A. K., Bhattacharyya, A., Mallick, B. K., and Baladandayuthapani, V. (2019) Data Integration and Variable Selection for Pan-Cancer Survival Prediction using Protein Expressions, Biometrics.
+Description: Provides function for performing Bayesian survival regression using 
+    Horseshoe prior in the accelerated failure time model with log normal assumption 
+    in order to achieve high dimensional pan-cancer variable selection as developed in
+    Maity et. al. (2019) <https://doi.org/10.1111/biom.13132>.
 Depends: R (>= 2.0.0)
 Imports: mvtnorm, Matrix, smoothmest, msm
 License: GPL-3

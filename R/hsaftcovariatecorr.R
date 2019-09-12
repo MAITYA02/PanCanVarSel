@@ -124,11 +124,11 @@
 
 #' @examples
 
-#' \dontrun{# Examples for hsaftcovariatecorr function
+#' # Examples for hsaftcovariatecorr function
 
-#' burnin <- 500   # number of burnin
+#' burnin <- 50   # number of burnin
 
-#' nmc    <- 1000  # number of Markov Chain samples
+#' nmc    <- 100  # number of Markov Chain samples
 
 #' y.sd   <- 1     # standard deviation of the data
 
@@ -218,7 +218,7 @@
 
 #'                                     summary(posterior.fit$BetaHat)
 
-#'}
+#'
 
 #'
 
@@ -347,6 +347,8 @@ hsaftcovariatecorr <- function(ct, X, method.tau = c("fixed", "truncatedCauchy",
   
   
   ## start Gibb's sampling ##
+  
+  message("Markov chain monte carlo is running")
   
   for(i in 1:niter)
     
@@ -642,7 +644,7 @@ hsaftcovariatecorr <- function(ct, X, method.tau = c("fixed", "truncatedCauchy",
       
     {
       
-      print(i)
+      message("iteration = ", i)
       
     }
     

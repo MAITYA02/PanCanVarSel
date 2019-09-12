@@ -126,11 +126,11 @@
 
 #' @examples
 
-#' \dontrun{# Examples for hsaftgroupcorr function
+#' # Examples for hsaftgroupcorr function
 
-#' burnin <- 500   # number of burnin
+#' burnin <- 50   # number of burnin
 
-#' nmc    <- 1000  # number of Markov Chain samples
+#' nmc    <- 100  # number of Markov Chain samples
 
 #' y.sd   <- 1     # standard deviation of the data
 
@@ -218,7 +218,7 @@
 
 #' summary(posterior.fit$BetaHat)
 
-#'}
+#'
 
 #'
 
@@ -342,7 +342,10 @@ hsaftgroupcorr <- function(ct, X, method.tau = c("fixed", "truncatedCauchy","hal
   
   
   
-  ## start Gibb's sampling ##
+  ## start Gibbs sampling ##
+  
+  message("Markov chain monte carlo is running")
+  
   
   for(i in 1:niter)
     
@@ -623,12 +626,11 @@ hsaftgroupcorr <- function(ct, X, method.tau = c("fixed", "truncatedCauchy","hal
     
     
     
-    
     if (i%%500 == 0)
       
     {
       
-      print(i)
+      message("iteration = ", i)
       
     }
     

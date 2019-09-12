@@ -71,9 +71,9 @@ of tau passed to the function.}
 This function extends the main function \code{\link{hsaft}} to create correlation among covariates.
 }
 \examples{
-\dontrun{# Examples for hsaftcovariatecorr function
-burnin <- 500   # number of burnin
-nmc    <- 1000  # number of Markov Chain samples
+# Examples for hsaftcovariatecorr function
+burnin <- 50   # number of burnin
+nmc    <- 100  # number of Markov Chain samples
 y.sd   <- 1     # standard deviation of the data
 p      <- 80    # number of covariates
 r      <- 5     # number of groups
@@ -118,7 +118,7 @@ posterior.fit <- hsaftcovariatecorr(ct, X, method.tau = "truncatedCauchy",
                                     burn = burnin, nmc = nmc,
                                     r = r, n.seq = n.seq, pk = p)
                                     summary(posterior.fit$BetaHat)
-}
+
 
 
 }

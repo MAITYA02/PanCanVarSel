@@ -134,7 +134,7 @@
 
 #'
 
-#' @examples \dontrun{
+#' @examples 
 
 #' burnin <- 500   # number of burnin
 
@@ -172,7 +172,7 @@
 
 #' summary(posterior.fit$BetaHat)
 
-#'}
+#'
 
 #'
 
@@ -311,6 +311,8 @@ hsaft <- function(ct, X, method.tau = c("fixed", "truncatedCauchy","halfCauchy")
   
   
   ## start Gibb's sampling ##
+  
+  message("Markov chain monte carlo is running")
   
   for(i in 1:N)
     
@@ -502,7 +504,7 @@ hsaft <- function(ct, X, method.tau = c("fixed", "truncatedCauchy","halfCauchy")
       
     {
       
-      print(i)
+      message("iteration = ", i)
       
     }
     

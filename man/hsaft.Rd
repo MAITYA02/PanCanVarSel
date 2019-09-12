@@ -74,7 +74,6 @@ The model is:
  \eqn{\log t_i=X\beta+\epsilon, \epsilon \sim N(0,\sigma^2)}
 }
 \examples{
-\dontrun{
 burnin <- 500   # number of burnin
 nmc    <- 1000  # number of Markov Chain samples
 y.sd   <- 1     # standard deviation of the data
@@ -93,7 +92,7 @@ ct     <- as.matrix(cbind(time = time, status = status))  # censored time
 posterior.fit <- hsaft(ct, x, method.tau = "truncatedCauchy", method.sigma = "Jeffreys",
                        burn = burnin, nmc = nmc)
 summary(posterior.fit$BetaHat)
-}
+
 
 }
 \references{
