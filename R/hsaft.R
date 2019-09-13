@@ -1,4 +1,4 @@
-#' Function to implement the horseshoe shrinkage prior in Bayesian survival regression
+#' Horseshoe shrinkage prior in Bayesian survival regression
 
 #'
 
@@ -40,9 +40,9 @@
 
 #'
 
-#' Arnab Kumar Maity, Anirban Bhattacharya, Bani K. Mallick, and Veerabhadran Baladandayuthapani (2017).
-
-#' Joint Bayesian Estimation and Variable Selection for TCPA Protein Expression Data
+#' Maity, A. K., Bhattacharyya, A., Mallick, B. K., and Baladandayuthapani, V. (2019) 
+#' Data Integration and Variable Selection for Pan-Cancer Survival Prediction using 
+#' Protein Expressions, Biometrics. <doi: 10.1111/biom.13132>
 
 #'
 

@@ -124,6 +124,7 @@ Stephanie van der Pas, James Scott, Antik Chakraborty and Anirban Bhattacharya (
 Implementation of the Horseshoe Prior. R package version 0.1.0.
 https://CRAN.R-project.org/package=horseshoe
 
-Arnab Kumar Maity, Anirban Bhattacharya, Bani K. Mallick, and Veerabhadran Baladandayuthapani (2017).
-Joint Bayesian Estimation and Variable Selection for TCPA Protein Expression Data
+Maity, A. K., Bhattacharyya, A., Mallick, B. K., and Baladandayuthapani, V. (2019) 
+Data Integration and Variable Selection for Pan-Cancer Survival Prediction using 
+Protein Expressions, Biometrics. <doi: 10.1111/biom.13132>
 }

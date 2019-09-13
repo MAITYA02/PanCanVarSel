@@ -1,6 +1,6 @@
 Package: PanCanVarSel
 Title: Pan-Cancer Variable Selection
-Version: 0.0.3
+Version: 0.0.4
 Authors@R: 
     c(person("Arnab", "Maity", email = "arnab.maity@pfizer.com", role = c("aut", "cre")),
       person("Antik", "Chakraborty", email = "antik.chakraborty@duke.edu", role = "aut"),
